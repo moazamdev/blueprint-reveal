@@ -10,7 +10,7 @@ The first export used compressed single-density frames and 14 timeline samples p
 
 The new source has **181 distinct timeline samples**, encoded at **25 fps**. This is a deterministic frame-by-frame export of the real renderer, not a real-time screen recording or a recreated animation. H.264 MP4 encoding uses CRF 14, the slow preset, `yuv420p`, fast-start playback and no audio. Gallery resolution is **2560 × 1876**; original-demo resolution is **2464 × 1232**. Those are the native encoded dimensions; they are not labeled as 4K or 60 fps.
 
-The MP4s are the full-quality previews. The README shows the looping GIFs inline, because GitHub does not play repository-relative MP4s, and each GIF links to a direct download of its full-resolution MP4. The GIFs' smaller dimensions, 15 fps playback and restricted color palette make them less suitable for judging fine construction lines, so use the MP4s for close inspection. GitHub requires its own uploaded video attachment URLs for native README playback; the steps below explain that. Sharp component stills and full-page layout screenshots are available inside expandable sections. The gallery's six targets are synchronized for inspection; normal scrolling still uses the configured center-of-viewport entrance.
+The MP4s are the full-quality previews. The README shows the looping GIFs inline, because GitHub does not play repository-relative MP4s, and each GIF links to its full-resolution MP4, served through the jsDelivr CDN so it plays in the browser. The GIFs' smaller dimensions, 15 fps playback and restricted color palette make them less suitable for judging fine construction lines, so use the MP4s for close inspection. GitHub requires its own uploaded video attachment URLs for native README playback; the steps below explain that. Sharp component stills and full-page layout screenshots are linked in the table below. The gallery's six targets are synchronized for inspection; normal scrolling still uses the configured center-of-viewport entrance.
 
 Captures contain only local page content. Crops exclude browser chrome, desktop information and the gallery's development panel. Full-page screenshots show the completed interfaces. Video and image metadata was removed during encoding; the MP4s have no audio tracks. No personal paths, cookies, environment variables or account details are part of the captures.
 
@@ -18,10 +18,10 @@ Captures contain only local page content. Crops exclude browser chrome, desktop 
 
 | Demo | Full-quality MP4 | Sharp component screenshot | Compact GIF | Full-page layout |
 | --- | --- | --- | --- | --- |
-| Monochrome gallery | [2560 × 1876 video](media/monochrome-gallery.mp4?raw=true) | [PNG](media/monochrome-gallery-poster.png) | [GIF](media/monochrome-gallery.gif) | [PNG](media/monochrome-gallery.png) |
-| Original reveal lab | [2464 × 1232 video](media/original-demo.mp4?raw=true) | [PNG](media/original-demo-poster.png) | [GIF](media/original-demo.gif) | [PNG](media/original-demo.png) |
+| Monochrome gallery | [2560 × 1876 video](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/monochrome-gallery.mp4) | [PNG](media/monochrome-gallery-poster.png) | [GIF](media/monochrome-gallery.gif) | [PNG](media/monochrome-gallery.png) |
+| Original reveal lab | [2464 × 1232 video](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/original-demo.mp4) | [PNG](media/original-demo-poster.png) | [GIF](media/original-demo.gif) | [PNG](media/original-demo.png) |
 
-All links are repository-relative, so no repository URL or media-upload account is needed. GitHub supports relative image paths and file links in READMEs, but that does not make repository-relative MP4s into native inline video players. See [GitHub's README documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#relative-links-and-image-paths-in-markdown-files).
+The MP4 links use jsDelivr, which serves files from this repository as `video/mp4` so browsers play them; GitHub serves large raw MP4s only as downloads. The other links are repository-relative. GitHub supports relative image paths and file links in READMEs, but that does not make repository-relative MP4s into native inline video players. See [GitHub's README documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#relative-links-and-image-paths-in-markdown-files).
 
 ## Native video players on GitHub
 
@@ -31,7 +31,7 @@ To make the **actual high-quality videos** play inside the GitHub README:
 
 1. Open this repository's README in GitHub's web editor.
 2. Drag `docs/media/monochrome-gallery.mp4` from your computer into the editor. Wait for the upload to finish. GitHub inserts a generated video-attachment URL.
-3. Replace the gallery's GIF line with that generated attachment URL, alone on its own line with a blank line above and below it. Keep the existing full-quality MP4 download link directly underneath.
+3. Replace the gallery's GIF line with that generated attachment URL, alone on its own line with a blank line above and below it. Keep the existing full-quality MP4 link directly underneath.
 4. Repeat for `docs/media/original-demo.mp4` and its GIF line.
 5. Use GitHub's Preview tab to confirm that both native players load and play before saving.
 

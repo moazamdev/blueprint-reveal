@@ -8,41 +8,23 @@ The effect moves from drifting dots to traced geometry, then replaces the bluepr
 
 ## Previews
 
-The animations below are looping GIF previews. Click one, or use the link beneath it, to download the **full-quality MP4** (25 fps, reveal slowed to about **7.2 seconds**). See [docs/previews.md](docs/previews.md) for how to add native GitHub video players.
+The animations below are looping GIF previews. Click one, or use the link beneath it, to watch the **full-quality MP4** (25 fps, reveal slowed to about **7.2 seconds**). See [docs/previews.md](docs/previews.md) for how to add native GitHub video players.
 
 ### Monochrome component gallery
 
 Six interactive components in a staggered three-column gallery.
 
-[![Monochrome gallery reveal animation](docs/media/monochrome-gallery.gif)](docs/media/monochrome-gallery.mp4?raw=true)
+[![Monochrome gallery reveal animation](docs/media/monochrome-gallery.gif)](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/monochrome-gallery.mp4)
 
-**[Download the full-quality MP4 — 2560 × 1876, 25 fps](docs/media/monochrome-gallery.mp4?raw=true)**
-
-<details>
-<summary>View still images</summary>
-
-![Sharp screenshot of the six monochrome components](docs/media/monochrome-gallery-poster.png)
-
-![Full monochrome landing page with its centered hero and raised middle gallery column](docs/media/monochrome-gallery.png)
-
-</details>
+**[Watch the full-quality MP4 — 2560 × 1876, 25 fps](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/monochrome-gallery.mp4)**
 
 ### Original component demo
 
 The earlier reveal lab: heart-rate widget, token-usage chart, and music-player interface.
 
-[![Original component reveal animation](docs/media/original-demo.gif)](docs/media/original-demo.mp4?raw=true)
+[![Original component reveal animation](docs/media/original-demo.gif)](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/original-demo.mp4)
 
-**[Download the full-quality MP4 — 2464 × 1232, 25 fps](docs/media/original-demo.mp4?raw=true)**
-
-<details>
-<summary>View still images</summary>
-
-![Sharp screenshot of the original three components](docs/media/original-demo-poster.png)
-
-![Original reveal lab showing three components and its animation controls](docs/media/original-demo.png)
-
-</details>
+**[Watch the full-quality MP4 — 2464 × 1232, 25 fps](https://cdn.jsdelivr.net/gh/moazamdev/blueprint-reveal@main/docs/media/original-demo.mp4)**
 
 ## Quick start
 

@@ -47,13 +47,13 @@ test('publication contains no detected credentials, personal paths or forbidden 
   const result=scanRelease(root);assert.deepEqual(result.findings,[]);
   assert.ok(result.files.includes('LICENSE'));assert.ok(result.files.includes('.github/workflows/checks.yml'));
 });
-test('README preview links resolve to all eight reviewed media assets',()=>{
+test('README preview links resolve to reviewed GIF and MP4 assets',()=>{
   const readme=fs.readFileSync(path.join(root,'README.md'),'utf8');
-  const links=new Set([...readme.matchAll(/\]\((docs\/media\/[^)?]+)(?:\?raw=true)?\)/g)].map(match=>match[1]));
-  assert.equal(links.size,8);
+  const links=new Set([...readme.matchAll(/\]\((?:https:\/\/cdn\.jsdelivr\.net\/gh\/moazamdev\/blueprint-reveal@main\/)?(docs\/media\/[^)]+)\)/g)].map(match=>match[1]));
+  assert.deepEqual([...links].sort(),['gif','mp4'].flatMap(ext=>['monochrome-gallery','original-demo'].map(name=>`docs/media/${name}.${ext}`)).sort());
   for(const link of links)assert.ok(fs.statSync(path.join(root,link)).size>1000);
   const manifest=JSON.parse(fs.readFileSync(path.join(root,'docs/media/manifest.json'),'utf8'));
-  assert.deepEqual([...links].sort(),Object.keys(manifest.files).sort());
+  for(const link of links)assert.ok(link in manifest.files);
   assert.equal(manifest.revealSeconds,7.2);
 });
 test('approved preview media cannot change without a reviewed manifest update',t=>{
