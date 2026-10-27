@@ -8,20 +8,15 @@ The effect moves from drifting dots to traced geometry, then replaces the bluepr
 
 ## Previews
 
-The players below use the actual **full-quality MP4s at 25 fps**, with the reveal slowed to about **7.2 seconds**, plus short pauses. Download/open links sit beneath each player.
-
-**GitHub rendering:** repository-relative MP4 players work only in Markdown viewers that allow HTML video. For native players on GitHub, upload these MP4s in GitHub's README editor and use the generated attachment URLs. See the [exact GitHub embedding steps](docs/previews.md#native-video-players-on-github).
+The animations below are looping GIF previews. Click one, or use the link beneath it, to download the **full-quality MP4** (25 fps, reveal slowed to about **7.2 seconds**). See [docs/previews.md](docs/previews.md) for how to add native GitHub video players.
 
 ### Monochrome component gallery
 
 Six interactive components in a staggered three-column gallery.
 
-<video controls playsinline preload="metadata" width="100%" poster="docs/media/monochrome-gallery-poster.png" aria-label="Monochrome gallery reveal video">
-  <source src="docs/media/monochrome-gallery.mp4" type="video/mp4">
-  Your Markdown viewer does not support this video player. Use the MP4 link below.
-</video>
+[![Monochrome gallery reveal animation](docs/media/monochrome-gallery.gif)](docs/media/monochrome-gallery.mp4?raw=true)
 
-**[Watch the full-quality MP4 — 2560 × 1876, 25 fps](docs/media/monochrome-gallery.mp4)**
+**[Download the full-quality MP4 — 2560 × 1876, 25 fps](docs/media/monochrome-gallery.mp4?raw=true)**
 
 <details>
 <summary>View still images</summary>
@@ -36,12 +31,9 @@ Six interactive components in a staggered three-column gallery.
 
 The earlier reveal lab: heart-rate widget, token-usage chart, and music-player interface.
 
-<video controls playsinline preload="metadata" width="100%" poster="docs/media/original-demo-poster.png" aria-label="Original component reveal video">
-  <source src="docs/media/original-demo.mp4" type="video/mp4">
-  Your Markdown viewer does not support this video player. Use the MP4 link below.
-</video>
+[![Original component reveal animation](docs/media/original-demo.gif)](docs/media/original-demo.mp4?raw=true)
 
-**[Watch the full-quality MP4 — 2464 × 1232, 25 fps](docs/media/original-demo.mp4)**
+**[Download the full-quality MP4 — 2464 × 1232, 25 fps](docs/media/original-demo.mp4?raw=true)**
 
 <details>
 <summary>View still images</summary>
@@ -51,8 +43,6 @@ The earlier reveal lab: heart-rate widget, token-usage chart, and music-player i
 ![Original reveal lab showing three components and its animation controls](docs/media/original-demo.png)
 
 </details>
-
-[Optional compact GIFs: gallery](docs/media/monochrome-gallery.gif) · [original demo](docs/media/original-demo.gif)
 
 ## Quick start
 

@@ -49,7 +49,7 @@ test('publication contains no detected credentials, personal paths or forbidden 
 });
 test('README preview links resolve to all eight reviewed media assets',()=>{
   const readme=fs.readFileSync(path.join(root,'README.md'),'utf8');
-  const links=new Set([...readme.matchAll(/\]\((docs\/media\/[^)]+)\)/g)].map(match=>match[1]));
+  const links=new Set([...readme.matchAll(/\]\((docs\/media\/[^)?]+)(?:\?raw=true)?\)/g)].map(match=>match[1]));
   assert.equal(links.size,8);
   for(const link of links)assert.ok(fs.statSync(path.join(root,link)).size>1000);
   const manifest=JSON.parse(fs.readFileSync(path.join(root,'docs/media/manifest.json'),'utf8'));
