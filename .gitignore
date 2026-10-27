@@ -1,0 +1,32 @@
+# Local tool state, credentials and private environment configuration
+.env
+.env.*
+!.env.example
+.openai/
+.codex/
+.claude/
+.agents/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+.npmrc
+
+# Dependencies and generated files
+node_modules/
+coverage/
+outputs/
+tmp/
+*.log
+*.tgz
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

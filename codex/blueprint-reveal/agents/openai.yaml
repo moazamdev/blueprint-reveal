@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blueprint Reveal"
+  short_description: "Add moving blueprint reveals and shared controls"
+  default_prompt: "Use $blueprint-reveal to inspect this project and add component-matched blueprint reveals with global controls."

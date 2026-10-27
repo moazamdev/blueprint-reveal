@@ -1,0 +1,54 @@
+{
+  "captured": "2026-10-28",
+  "method": "New high-density renders, 181 distinct inspection-timeline samples; page content only; offline crop and CRF 14 H.264 encode. Normal source restored after capture.",
+  "revealSeconds": 7.2,
+  "sourceSamples": 181,
+  "samplesPerSecond": 25,
+  "holdStartSeconds": 0.7,
+  "holdEndSeconds": 1.6,
+  "audio": false,
+  "videoDimensions": {
+    "monochrome-gallery.mp4": [
+      2560,
+      1876
+    ],
+    "original-demo.mp4": [
+      2464,
+      1232
+    ]
+  },
+  "files": {
+    "docs/media/monochrome-gallery-poster.png": {
+      "bytes": 751711,
+      "sha256": "dfd990619a7495ba97d58645303b557efd6acf68644edb4443eacd7dfaaabb0f"
+    },
+    "docs/media/monochrome-gallery.gif": {
+      "bytes": 7719073,
+      "sha256": "9914d0df8ad59fa414f1b0ec76e225fb33cf7dd2c633a0f7657628e654bf3bd2"
+    },
+    "docs/media/monochrome-gallery.mp4": {
+      "bytes": 9649553,
+      "sha256": "deeeefa435049d29556282065605d3b8faf3b0aac6793c7e578c4ea6ee8ea913"
+    },
+    "docs/media/monochrome-gallery.png": {
+      "bytes": 403368,
+      "sha256": "a837f356b090eaf7a50f9145ff5b252b0d35b899b496940d5858109c05d80f08"
+    },
+    "docs/media/original-demo-poster.png": {
+      "bytes": 267916,
+      "sha256": "6cf55ceb7546a9c66516c2a256498be1fe0cd766baf2aec0cb0eba05be4db553"
+    },
+    "docs/media/original-demo.gif": {
+      "bytes": 4301232,
+      "sha256": "fb71fff4bf1cdcfedfc8c54deb5306cc94ee30182f5e8523265543c7267b59ac"
+    },
+    "docs/media/original-demo.mp4": {
+      "bytes": 4397623,
+      "sha256": "9bbac28f63929cf69c7920b28e0b666cd627c0339f273d5c6a074c99fb96721f"
+    },
+    "docs/media/original-demo.png": {
+      "bytes": 292085,
+      "sha256": "719b7cd93f11cf41d1e284635a12b5a4d497736e8f3caa397eaefa1cb6c4abbb"
+    }
+  }
+}

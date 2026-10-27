@@ -1,0 +1,28 @@
+{
+  "name": "blueprint-reveal-skills",
+  "version": "0.2.0",
+  "description": "Codex and Claude Code skills for component-matched blueprint reveals with global controls",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "check": "node scripts/check.mjs",
+    "audit:release": "node scripts/audit-release.mjs",
+    "demo": "node scripts/serve-demo.mjs",
+    "install:codex": "node scripts/install.mjs --tool codex",
+    "install:claude": "node scripts/install.mjs --tool claude-code"
+  },
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "claude-code",
+    "svg",
+    "animation",
+    "blueprint",
+    "reveal"
+  ]
+}
