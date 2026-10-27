@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: MIT
- * Copyright (c) 2026 Blueprint Reveal contributors
+ * Copyright (c) 2026 Moazam Ali
  */
 /** BlueprintReveal — dependency-free, deterministic DOM + SVG + canvas reveal.
  * This module is independent of the demo, Tailwind, and daisyUI.

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: MIT
- * Copyright (c) 2026 Blueprint Reveal contributors
+ * Copyright (c) 2026 Moazam Ali
  */
 import { BlueprintReveal, directions } from './blueprint-reveal.js';
 

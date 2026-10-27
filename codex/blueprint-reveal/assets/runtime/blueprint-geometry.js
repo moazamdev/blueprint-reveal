@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: MIT
- * Copyright (c) 2026 Blueprint Reveal contributors
+ * Copyright (c) 2026 Moazam Ali
  */
 /** Layout-aware blueprint authoring tools. Read DOM only after mount/layout. */
 const limits = { nodes: 100, textLines: 80, svgSamples: 160 };

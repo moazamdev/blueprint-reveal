@@ -230,4 +230,4 @@ Publish **this folder only**, not its parent workspace. It contains the complete
 
 ## License
 
-[MIT](LICENSE), copyright 2026 Blueprint Reveal contributors. Preserve the license when redistributing the skills or copying the bundled runtime into another project. The effect is independently implemented; no third-party source or reference media is redistributed. See [NOTICE.md](NOTICE.md).
+[MIT](LICENSE), copyright 2026 Moazam Ali. Preserve the license when redistributing the skills or copying the bundled runtime into another project. The effect is independently implemented; no third-party source or reference media is redistributed. See [NOTICE.md](NOTICE.md).

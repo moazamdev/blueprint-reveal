@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: MIT
- * Copyright (c) 2026 Blueprint Reveal contributors
+ * Copyright (c) 2026 Moazam Ali
  */
 /** Optional development controls. No UI framework or global CSS required. */
 export function mountRevealControls(controller,{parent=document.body}={}) {
